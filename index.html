@@ -17,23 +17,41 @@
       rel="stylesheet"
     />
   </head>
-  <body>
-    <section class="box">
-      <div class="star">
-        <img src="/images/icon-star.svg" />
-      </div>
-      <h1>How did we do?</h1>
-      <p>
-        Please let us know how we did with your support request. All feedback is
-        apreciated to help us improve our offering!
-      </p>
-      <div class="numeros">
-        <label><input type="radio" /> 1</label>
-        <label><input type="radio" /> 2</label>
-        <label><input type="radio" /> 3</label>
-        <label><input type="radio" /> 4</label>
-        <label><input type="radio" /> 5</label>
-      </div>
+
+      <!-- <fieldset class="pontuacao">
+        <label><input type="radio" nome="pontuacao" value="1" /> 1</label>
+        <label><input type="radio" nome="pontuacao" value="2" /> 2</label>
+        <label><input type="radio" nome="pontuacao" value="3" /> 3</label>
+        <label><input type="radio" nome="pontuacao" value="4" /> 4</label>
+        <label><input type="radio" nome="pontuacao" value="5" /> 5</label>
+      </fieldset> -->
+
+      <fieldset class="pontuacao">
+        <div>
+          <input id="pontuacao1" name="pontuacao" type="radio" value="1" />
+          <label for="pontuacao1">1</label>
+        </div>
+
+        <div>
+          <input id="pontuacao2" name="pontuacao" type="radio" value="2" />
+          <label for="pontuacao2">2</label>
+        </div>
+
+        <div>
+          <input id="pontuacao3" name="pontuacao" type="radio" value="3" />
+          <label for="pontuacao3">3</label>
+        </div>
+
+        <div>
+          <input id="pontuacao4" name="pontuacao" type="radio" value="4" />
+          <label for="pontuacao4">4</label>
+        </div>
+
+        <div>
+          <input id="pontuacao5" name="pontuacao" type="radio" value="5" />
+          <label for="pontuacao5">5</label>
+        </div>
+      </fieldset>
       <button>Submit</button>
     </section>
   </body>

@@ -1,0 +1,113 @@
+/* font-family: 'Overpass', sans-serif; */
+
+body{
+  background-color: hsl(216, 12%, 8%);
+  color: #929498;
+  font-size: 14px;
+  font-family: 'Overpass', sans-serif;
+
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
+
+.box, .container {
+  background-image: linear-gradient(#232a32, #171e28);
+
+  width: 320px;
+  height: 320px;
+  padding: 30px;
+  border-radius: 25px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.img-star{
+  background-color: #2b343f;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 25px;
+  color: white
+}
+
+p {
+  line-height: 20px;
+}
+
+button {
+  background-color: #fc7615;
+  border-radius: 20px;
+  padding: 12px;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer; 
+  letter-spacing: 2px;
+}
+
+button:hover {
+  background-color: #ffffff;
+  color: #fc7615;
+}
+
+.pontuacao {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+input[type='radio']{
+  display: none;
+}
+
+input[type='radio']:checked + label{
+  background-color: #fc7615;
+  color: #ffffff;
+}
+
+.pontuacao label {
+  background-color: #2b343f;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  cursor: pointer; 
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pontuacao label:hover {
+  background-color: #fc7615;
+  color: #ffffff;
+}
+
+/*        thanks you page        */
+
+.container {
+  text-align: center;
+}
+
+.img-card {
+  width: 170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.selected {
+  color: #fc7615;
+  background-color: #2b343f;
+  border-radius: 20px;
+  margin: 0px 60px;
+  padding: 5px;
+}

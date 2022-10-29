@@ -12,11 +12,11 @@ body{
   transform: translate(50%, -50%);
 }
 
-.box {
+.box, .container {
   background-image: linear-gradient(#232a32, #171e28);
 
-  width: 300px;
-  height: 300px;
+  width: 320px;
+  height: 320px;
   padding: 30px;
   border-radius: 25px;
 
@@ -25,7 +25,7 @@ body{
   justify-content: space-between;
 }
 
-.star{
+.img-star{
   background-color: #2b343f;
   width: 40px;
   height: 40px;
@@ -45,7 +45,7 @@ p {
 }
 
 button {
-  background-color: #fb7413;
+  background-color: #fc7615;
   border-radius: 20px;
   padding: 12px;
   color: #ffffff;
@@ -57,7 +57,7 @@ button {
 
 button:hover {
   background-color: #ffffff;
-  color: #fb7413;
+  color: #fc7615;
 }
 
 .pontuacao {
@@ -71,7 +71,7 @@ input[type='radio']{
 }
 
 input[type='radio']:checked + label{
-  background-color: #fb7413;
+  background-color: #fc7615;
   color: #ffffff;
 }
 
@@ -88,6 +88,26 @@ input[type='radio']:checked + label{
 }
 
 .pontuacao label:hover {
-  background-color: #fb7413;
+  background-color: #fc7615;
   color: #ffffff;
+}
+
+/*        thanks you page        */
+
+.container {
+  text-align: center;
+}
+
+.img-card {
+  width: 170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.selected {
+  color: #fc7615;
+  background-color: #2b343f;
+  border-radius: 20px;
+  margin: 0px 60px;
+  padding: 5px;
 }
